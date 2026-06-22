@@ -1,1 +1,0 @@
-from .locadora_controller import locadora_bp
