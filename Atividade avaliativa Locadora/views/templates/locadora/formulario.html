@@ -1,0 +1,8 @@
+<select name="cliente_id" required>
+    <option value="">Selecione...</option>
+    {% for c in clientes %}
+    <option value="{{ c.id }}">
+        {{ c.nome }}
+    </option>
+    {% endfor %}
+</select>
